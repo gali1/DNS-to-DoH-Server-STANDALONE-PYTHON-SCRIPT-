@@ -13,9 +13,9 @@ from binascii import hexlify
 
 # Configuration
 LISTEN_PORT = 53
-DOH_SERVER = 'https://odoh.cloudflare-dns.com/dns-query'
-CERTIFICATE_PATH = '/home/user/cloudflare.crt'
-KEY_PATH = '/home/user/cloudflare.pem'
+DOH_SERVER = 'https://*DOH-SERVICE-HERE*/dns-query'
+CERTIFICATE_PATH = 'CERT.crt'
+KEY_PATH = 'KEY.pem'
 LOCAL_URL = 'http://127.0.0.1'  # Replace with your local URL/IP
 PID_FILE = '/var/run/dns_server.pid'
 LOG_FILE = '/var/log/dns-to-doh.log'
