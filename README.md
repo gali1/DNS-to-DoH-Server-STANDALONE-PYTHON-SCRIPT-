@@ -9,7 +9,7 @@ Welcome to the DNS-to-DoH server script! This tool listens for DNS queries on po
 First, clone the repository and navigate into the directory:
 
 ```sh
-git clone https://github.com/your-repo/dns-to-doh.git
+git clone https://github.com/gali1/dns-to-doh.git
 cd dns-to-doh
 ```
 
